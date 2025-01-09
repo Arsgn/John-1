@@ -75,21 +75,33 @@ button:hover {
   gap: 70px;
 }
 
+.menu-burger {
+  display: none;
+}
+
+.menu {
+  font-size: 30px;
+}
+
 .header nav a:hover {
   transform: scale(1.1);
   transition: 0.2s;
   color: #454b81;
-  border-bottom: 1px solid #21243d;
 }
 
 #home {
-  padding-block: 150px;
+  padding-block: 120px;
 }
 
 .home {
   display: flex;
   align-items: start;
   justify-content: space-between;
+}
+
+.home img {
+  max-width: 243px;
+  width: 100%;
 }
 
 .home-text {
@@ -146,6 +158,11 @@ button:hover {
   max-width: 1100px;
   border-bottom: 2px solid #e0e0e0;
   padding-block: 30px;
+}
+
+.works-box img {
+  max-width: 246px;
+  width: 100%;
 }
 
 .works-h3 {
